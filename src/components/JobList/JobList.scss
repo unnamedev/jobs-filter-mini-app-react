@@ -1,0 +1,15 @@
+.job-list {
+    // .job-list__title
+    &__title {
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #616681;
+    }
+
+    // .job-list__items
+    &__items {
+        display: grid;
+        gap: 20px;
+    }
+}

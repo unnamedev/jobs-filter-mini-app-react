@@ -1,0 +1,40 @@
+.badge {
+    cursor: pointer;
+
+    &.small {
+        font-size: 12px;
+        padding: 2px 8px;
+        font-weight: 500;
+        display: block;
+
+        &--accent {
+            background-color: #edecfd;
+            color: var(--accent-color);
+        }
+
+        &--grey {
+            background-color: #e2eefe;
+            color: #2b57b2;
+            cursor: default;
+        }
+
+        &--violet {
+            background-color: #5964e0;
+            color: #ffffff;
+            cursor: default;
+        }
+    }
+
+    &.rounded {
+        border-radius: 20px;
+    }
+
+    &.outline {
+        border: 1px solid #abacb8;
+        padding: 8px 10px;
+        border-radius: 5px;
+        color: #42475c;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
